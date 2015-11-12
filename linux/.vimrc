@@ -1,16 +1,16 @@
 " Set up NeoBundle as well
-" source /home/chrisgibson/.vim/vimrcs/neobundle-setup.vim
+" source /home/ccreed/.vim/vimrcs/neobundle-setup.vim
 
 "NeoBundle Scripts-----------------------------
 if has('vim_starting')
   set nocompatible               " Be iMproved
 
   " Required:
-  set runtimepath+=/home/chrisgibson/.vim/bundle/neobundle.vim/
+  set runtimepath+=/home/ccreed/.vim/bundle/neobundle.vim/
 endif
 
 " Required:
-call neobundle#begin(expand('/home/chrisgibson/.vim/bundle'))
+call neobundle#begin(expand('/home/ccreed/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
